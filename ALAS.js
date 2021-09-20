@@ -16,7 +16,7 @@ var timeOutID;
 window.onload = function(){
   console.log(window.location.href);
 
-  if (window.location.href === "file:///D:/Projects/HTML/ALAS%20Website/ALASEvents.html") {
+  if (window.location.href === "https://anthonyndg.github.io/ALASWebsite-Events/") {
     console.log("We got the page babe");
     var day = new Date();
     var number = day.getDay();
